@@ -6,7 +6,7 @@ set -e
 
 # === SETĂRI INIȚIALE ===
 timedatectl set-ntp true
-loadkeys ro 2>/dev/null || true
+loadkeys en 2>/dev/null || true
 
 # === FORMATĂRI ===
 echo "[*] Formatez partițiile..."
